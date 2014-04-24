@@ -1,0 +1,33 @@
+Gamestate
+	Game
+		resets :
+			PlayerInfo - totalChip, hasLeft
+			
+		changes: 
+	
+	Hands
+		resets : 
+			TableInfo - flop, flopState=0, potTotal
+			PlayerInfo - hands, hasFolded
+		
+		changes:
+			TableInfo - dealer, bigBlinder, smallBlinder
+			
+	
+	Flop
+		resets :
+			TableInfo - whoseTurn, highestBet=0
+			PlayerInfo - betAmount=0
+		
+		changes:
+			TableInfo - flop, flopState, potTotal
+				
+	
+	Turn
+		resets :
+		
+		changes:
+			TableInfo - whoseTurn, highestBet
+			PlayerInfo - totalChip, betAmount, hasFolded, hasLeft
+
+
