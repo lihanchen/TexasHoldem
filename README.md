@@ -1,4 +1,4 @@
-PokerGame
+Texas Hold'em
 =========
 
 Team 3 Sang Rhee, Yixin Wang, Hanchen Li, Yuying Wang, Boheon Jeong, Somi choi
